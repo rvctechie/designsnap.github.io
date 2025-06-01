@@ -1047,6 +1047,175 @@
         mobileToggle.addEventListener('click', function() {
             nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
         });
-    </script>
-</body>
-</html># designsnap.github.io
+    </scr<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignSnap - AI Interior Design App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Color Scheme */
+        :root {
+            --primary: #6c5ce7;
+            --secondary: #a29bfe;
+            --accent: #fd79a8;
+            --light: #f7f7ff;
+            --dark: #2d3436;
+            --success: #00b894;
+        }
+        
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            padding: 80px 0;
+        }
+        
+        h1, h2, h3, h4 {
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+        }
+        
+        .btn:hover {
+            background: #5d4de0;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4);
+        }
+        
+        .btn-accent {
+            background: var(--accent);
+            box-shadow: 0 4px 15px rgba(253, 121, 168, 0.3);
+        }
+        
+        .btn-accent:hover {
+            background: #fc5d96;
+            box-shadow: 0 6px 20px rgba(253, 121, 168, 0.4);
+        }
+        
+        .btn-light {
+            background: white;
+            color: var(--primary);
+        }
+        
+        .btn-light:hover {
+            background: #f0f0ff;
+        }
+        
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            padding: 20px 0;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .logo i {
+            margin-right: 10px;
+            font-size: 32px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 180px 0 100px;
+            background: linear-gradient(135deg, #f0f4ff 0%, #e6f7ff 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .hero-text {
+            flex: 1;
+            max-width: 600px;
+        }
+        
+        .hero-title {
+            font-size: 60px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        
+        .hero-title span {
+            color: var(--primary);
+        }
+        
+        .hero-subtitle {
+            font-size: 22px;
+            color: #495057;
+            margin-bottom: 40px;
+        }
+        
+        .hero-btns {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .hero-st
